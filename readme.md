@@ -11,7 +11,7 @@ Initial notions about hte project
 ## Relevant articles and links:
 1. https://stackoverflow.com/questions/696506/sql-datatype-how-to-store-a-year
 2. https://stackoverflow.com/questions/47357855/sql-add-only-a-year-value-in-a-date-column
-3. 
+3. https://medium.com/analytics-vidhya/analysis-of-time-series-data-dad4afa56358
 
 ## Problems to solve:
 1. I can't save year as 4 byte int for 200000+ rows since that would be a waste of space
