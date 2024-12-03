@@ -20,7 +20,7 @@ Initial notions about hte project
 1. I can't save year as 4 byte int for 200000+ rows since that would be a waste of space
 
 # Initial insights of GPT-3.5:
-Based on the sample rows and column names you provided, it appears that the dataset contains time series health care data regarding U.S. chronic disease indicators (CDI) across the nation from 2001-2014. Below is a description of each column:
+1. Based on the sample rows and column names you provided, it appears that the dataset contains time series health care data regarding U.S. chronic disease indicators (CDI) across the nation from 2001-2014. Below is a description of each column:
 
 YearStart: The starting year of the data collection period (e.g., 2013 in the first row).
 YearEnd: The ending year of the data collection period (e.g., 2013 in the first row).
@@ -132,3 +132,9 @@ StratificationCategoryID3: ID representing the third category for stratification
 StratificationID3: ID representing the stratification value for category 3. Similarly, this column would contain the unique identifier for the third stratification value.
 
 In summary, these columns contain various aspects of the healthcare data, such as the time period, geographic location, data values, stratification categories, and identifiers, all of which are crucial for conducting data analysis and drawing insights in the healthcare domain.
+
+2. As far as I know, in order to get myself acquainted and understand the data I need to first visualize and manipulate it as best I know how using pandas and python and matplotlib
+
+the vague next step would now be to import the same now understood data to pgAdmin 4 so I can use pgsql to manipulate it and do data cleaning, preprocessing, cleaning, feature engineering there separately without python
+
+the next is to now showcase these result in some kind of visualization platform like PowerBI
