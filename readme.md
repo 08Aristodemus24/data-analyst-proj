@@ -142,3 +142,8 @@ I think I'll be using a series of selects and then once the final table is out I
 the next is to now showcase these result in some kind of visualization platform like PowerBI
 
 to run scripts enter postgresql cli by running `psql -U <name of user e.g. postgres>` then enter password then enter path of `.sql` script relative to the current directory `\ir "./<name of file>.sql"`
+
+
+3. some queries used:
+* `select "DataValueFootnote" from "ChronicDisease" where 'No data available' in ("DataValueFootnote");`
+* `select "DataValueFootnote" from "ChronicDisease" where ' ' in ("DataValueFootnote");` reveals the empty strings in the dataaluefootnote column
