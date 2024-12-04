@@ -137,4 +137,8 @@ In summary, these columns contain various aspects of the healthcare data, such a
 
 the vague next step would now be to import the same now understood data to pgAdmin 4 so I can use pgsql to manipulate it and do data cleaning, preprocessing, cleaning, feature engineering there separately without python
 
+I think I'll be using a series of selects and then once the final table is out I can then save it as a separate table as a .csv file
+
 the next is to now showcase these result in some kind of visualization platform like PowerBI
+
+to run scripts enter postgresql cli by running `psql -U <name of user e.g. postgres>` then enter password then enter path of `.sql` script relative to the current directory `\ir "./<name of file>.sql"`
