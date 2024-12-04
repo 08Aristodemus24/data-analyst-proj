@@ -4,7 +4,7 @@
 -- create chronic_disease_indicators table
 -- note: table needs to also have a primary key
 CREATE TABLE chronic_disease_indicators (
-    id INT NOT NULL PRIMARY KEY,
+    ID INT NOT NULL PRIMARY KEY,
 
     YearStart BIGINT,
     YearEnd BIGINT,

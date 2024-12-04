@@ -147,3 +147,4 @@ to run scripts enter postgresql cli by running `psql -U <name of user e.g. postg
 3. some queries used:
 * `select "DataValueFootnote" from "ChronicDisease" where 'No data available' in ("DataValueFootnote");`
 * `select "DataValueFootnote" from "ChronicDisease" where ' ' in ("DataValueFootnote");` reveals the empty strings in the dataaluefootnote column
+* `select distinct "<column>" from "ChronicDisease";`
